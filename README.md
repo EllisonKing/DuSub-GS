@@ -17,7 +17,7 @@ Monocular dynamic scene reconstruction is difficult because deformation models o
 
 ## Framework
 
-![DuSub-GS framework](assets/framework.png)
+![DuSub-GS framework](assets/framework_base.png)
 
 ## Installation
 
