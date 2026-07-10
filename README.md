@@ -9,8 +9,7 @@ Official implementation of **DuSub-GS: Dual-Subspace Motion Modeling for Robust 
 
 DuSub-GS decomposes dynamic Gaussian motion into two complementary subspaces: a Chebyshev field for globally stable low-frequency motion and a residual motion field for localized high-frequency dynamics. This decomposition improves temporal stability while preserving the flexibility needed for complex non-rigid motion.
 
-> The project page is available at https://dusub-gs.github.io/. The paper and arXiv badges above point to the project page; replace them with the direct paper/arXiv URLs after final publication if desired.
-
+> The project page is available at https://dusub-gs.github.io/. The paper and arXiv badges above point to the project page.
 ## Abstract
 
 Monocular dynamic scene reconstruction is difficult because deformation models often trade temporal stability for local flexibility, leading to jitter, boundary artifacts, or unstable geometry. DuSub-GS addresses this by decomposing Gaussian motion into a globally stable Chebyshev transformation field and a localized residual motion field. The Chebyshev branch captures smooth low-frequency trends over bounded non-periodic time intervals, while the residual branch focuses on high-frequency local dynamics outside the spectral subspace. A joint optimization objective combines appearance, geometry, and residual regularization to produce temporally coherent and detail-preserving dynamic Gaussian reconstructions.
